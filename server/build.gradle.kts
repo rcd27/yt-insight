@@ -7,10 +7,10 @@ plugins {
     kotlin("plugin.serialization") version "2.3.0"
 }
 
-group = "com.github.rcd27"
+group = "com.github.rcd27.ytinsight"
 version = "1.0.0"
 application {
-    mainClass.set("com.github.rcd27.ApplicationKt")
+    mainClass.set("com.github.rcd27.ytinsight.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

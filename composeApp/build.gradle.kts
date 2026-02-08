@@ -35,7 +35,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "com.github.rcd27.MainKt"
+        mainClass = "com.github.rcd27.ytinsight.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
