@@ -4,10 +4,13 @@
   "private": true,
   "workspaces": [
     "webApp",
-    "shared/build/dist/js/developmentLibrary"
+    "shared/build/dist/js/productionLibrary"
   ],
   "scripts": {
     "build": "cd webApp && npm run build",
     "start": "cd webApp && npm run start"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
   }
 }
