@@ -1,0 +1,70 @@
+.segments-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.segments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.segment-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-container {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.segment-info {
+  padding: 15px;
+}
+
+.segment-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.edit-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.field label {
+  width: 70px;
+  font-size: 0.9rem;
+}
+
+.field input {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formatted-time {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.duration {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 5px;
+}

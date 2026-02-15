@@ -1,0 +1,86 @@
+import { useState } from 'react';
+import './LaughterSegments.css';
+import segmentsData from '../../segment_laughter_output.json';
+
+interface Segment {
+  filename: string;
+  start: number;
+  end: number;
+}
+
+const YOUTUBE_VIDEO_ID = 'K_zrdqPHKbk';
+
+export function LaughterSegments() {
+  const [segments, setSegments] = useState<Segment[]>(segmentsData);
+
+  const handleUpdate = (index: number, field: keyof Segment, value: string) => {
+    const newSegments = [...segments];
+    const numValue = parseFloat(value);
+    if (!isNaN(numValue)) {
+      (newSegments[index] as any)[field] = numValue;
+      setSegments(newSegments);
+    }
+  };
+
+  const formatTime = (seconds: number) => {
+    const date = new Date(0);
+    date.setSeconds(seconds);
+    return date.toISOString().substr(11, 8);
+  };
+
+  return (
+    <div className="segments-container">
+      <h1>Laughter Segments</h1>
+      <div className="segments-grid">
+        {segments.map((segment, index) => {
+          const startTime = Math.floor(segment.start);
+          const embedUrl = `https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?start=${startTime}`;
+          
+          return (
+            <div key={index} className="segment-card">
+              <div className="video-container">
+                <iframe
+                  width="100%"
+                  height="200"
+                  src={embedUrl}
+                  title={`Laughter ${index}`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="segment-info">
+                <h3>{segment.filename.split('/').pop()}</h3>
+                <div className="edit-fields">
+                  <div className="field">
+                    <label>Start (s):</label>
+                    <input
+                      type="number"
+                      step="0.1"
+                      value={segment.start}
+                      onChange={(e) => handleUpdate(index, 'start', e.target.value)}
+                    />
+                    <span className="formatted-time">{formatTime(segment.start)}</span>
+                  </div>
+                  <div className="field">
+                    <label>End (s):</label>
+                    <input
+                      type="number"
+                      step="0.1"
+                      value={segment.end}
+                      onChange={(e) => handleUpdate(index, 'end', e.target.value)}
+                    />
+                    <span className="formatted-time">{formatTime(segment.end)}</span>
+                  </div>
+                  <div className="duration">
+                    Duration: {(segment.end - segment.start).toFixed(2)}s
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
