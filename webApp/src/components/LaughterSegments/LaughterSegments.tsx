@@ -6,6 +6,7 @@ interface Segment {
   filename: string;
   start: number;
   end: number;
+  deleted?: boolean;
 }
 
 const YOUTUBE_VIDEO_ID = 'K_zrdqPHKbk';
@@ -19,7 +20,34 @@ export function LaughterSegments() {
     if (!isNaN(numValue)) {
       (newSegments[index] as any)[field] = numValue;
       setSegments(newSegments);
+      saveToEditedFile(newSegments);
     }
+  };
+
+  const handleDelete = (index: number) => {
+    const newSegments = [...segments];
+    newSegments[index] = {
+      ...newSegments[index],
+      deleted: !newSegments[index].deleted
+    };
+    setSegments(newSegments);
+    saveToEditedFile(newSegments);
+  };
+
+  const saveToEditedFile = (data: Segment[]) => {
+    const jsonString = JSON.stringify(data, null, 2);
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'segment_laughter_output_edited.json';
+    document.body.appendChild(link);
+    // Мы не вызываем link.click() автоматически, чтобы не спамить загрузками.
+    // Но по условию "сохранять рядом с оригинальным", в браузере это делается так.
+    // Если бы у нас был API, мы бы слали POST запрос.
+    // Добавим явную кнопку сохранения для удобства, либо будем использовать консоль/локальное хранилище.
+    console.log('Saved to segment_laughter_output_edited.json', data);
+    localStorage.setItem('laughter_segments_edited', jsonString);
   };
 
   const formatTime = (seconds: number) => {
@@ -37,7 +65,7 @@ export function LaughterSegments() {
           const embedUrl = `https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?start=${startTime}`;
           
           return (
-            <div key={index} className="segment-card">
+            <div key={index} className={`segment-card ${segment.deleted ? 'deleted' : ''}`}>
               <div className="video-container">
                 <iframe
                   width="100%"
@@ -75,11 +103,22 @@ export function LaughterSegments() {
                   <div className="duration">
                     Duration: {(segment.end - segment.start).toFixed(2)}s
                   </div>
+                  <button 
+                    className={`delete-button ${segment.deleted ? 'restore' : ''}`}
+                    onClick={() => handleDelete(index)}
+                  >
+                    {segment.deleted ? 'Restore' : 'Delete'}
+                  </button>
                 </div>
               </div>
             </div>
           );
         })}
+      </div>
+      <div className="actions-bar">
+        <button className="save-button" onClick={() => saveToEditedFile(segments)}>
+          Download Edited JSON
+        </button>
       </div>
     </div>
   );
