@@ -38,17 +38,6 @@ export function LaughterSegments() {
     const dataToSave = data.filter((segment) => !segment.deleted);
     console.log('new', dataToSave);
     const jsonString = JSON.stringify(dataToSave, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'segment_laughter_output_edited.json';
-    document.body.appendChild(link);
-    // Мы не вызываем link.click() автоматически, чтобы не спамить загрузками.
-    // Но по условию "сохранять рядом с оригинальным", в браузере это делается так.
-    // Если бы у нас был API, мы бы слали POST запрос.
-    // Добавим явную кнопку сохранения для удобства, либо будем использовать консоль/локальное хранилище.
-    console.log('Saved to segment_laughter_output_edited.json', dataToSave);
     localStorage.setItem('laughter_segments_edited', jsonString);
   };
 
