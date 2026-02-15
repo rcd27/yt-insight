@@ -10,11 +10,6 @@
     "end": 690.0015371795378
   },
   {
-    "filename": "./output50/laugh_2.wav",
-    "start": 747.2691536397481,
-    "end": 748.0829443730438
-  },
-  {
     "filename": "./output50/laugh_3.wav",
     "start": 897.6111788251804,
     "end": 898.3784672308592
@@ -23,21 +18,6 @@
     "filename": "./output50/laugh_4.wav",
     "start": 903.6332302515688,
     "end": 904.6562814591405
-  },
-  {
-    "filename": "./output50/laugh_5.wav",
-    "start": 1055.7655950502517,
-    "end": 1057.43967884446
-  },
-  {
-    "filename": "./output50/laugh_6.wav",
-    "start": 1061.0901115623865,
-    "end": 1063.7174930727413
-  },
-  {
-    "filename": "./output50/laugh_7.wav",
-    "start": 1203.8290061824562,
-    "end": 1206.0146155804503
   },
   {
     "filename": "./output50/laugh_8.wav",
@@ -60,16 +40,6 @@
     "end": 1620.3503546470147
   },
   {
-    "filename": "./output50/laugh_12.wav",
-    "start": 1650.3676071237226,
-    "end": 1651.6464211331872
-  },
-  {
-    "filename": "./output50/laugh_13.wav",
-    "start": 1658.156746999553,
-    "end": 1667.4107101953157
-  },
-  {
     "filename": "./output50/laugh_14.wav",
     "start": 1688.9180367181311,
     "end": 1689.4063111581086
@@ -85,19 +55,9 @@
     "end": 1802.1512044652786
   },
   {
-    "filename": "./output50/laugh_17.wav",
-    "start": 2020.665641937084,
-    "end": 2021.9677071103572
-  },
-  {
     "filename": "./output50/laugh_18.wav",
     "start": 2139.548842489685,
     "end": 2141.1299216286593
-  },
-  {
-    "filename": "./output50/laugh_19.wav",
-    "start": 2580.390908297881,
-    "end": 2581.5534664883035
   },
   {
     "filename": "./output50/laugh_20.wav",
@@ -105,29 +65,9 @@
     "end": 2603.2235511577783
   },
   {
-    "filename": "./output50/laugh_21.wav",
-    "start": 2656.6082232619774,
-    "end": 2658.0730465819097
-  },
-  {
     "filename": "./output50/laugh_22.wav",
     "start": 2868.7285906864595,
     "end": 2869.17036279882
-  },
-  {
-    "filename": "./output50/laugh_23.wav",
-    "start": 2988.0070610238035,
-    "end": 2989.2858750332684
-  },
-  {
-    "filename": "./output50/laugh_24.wav",
-    "start": 3112.563545545666,
-    "end": 3112.982066494218
-  },
-  {
-    "filename": "./output50/laugh_25.wav",
-    "start": 3595.838985304282,
-    "end": 3598.396613323211
   },
   {
     "filename": "./output50/laugh_26.wav",
@@ -145,24 +85,9 @@
     "end": 3627.20480528188
   },
   {
-    "filename": "./output50/laugh_29.wav",
-    "start": 3743.99540109172,
-    "end": 3745.8089918687792
-  },
-  {
-    "filename": "./output50/laugh_30.wav",
-    "start": 3894.639691406662,
-    "end": 3895.662742614234
-  },
-  {
     "filename": "./output50/laugh_31.wav",
     "start": 3897.732096193186,
     "end": 3899.382928823586
-  },
-  {
-    "filename": "./output50/laugh_32.wav",
-    "start": 4691.968600726002,
-    "end": 4693.851944994486
   },
   {
     "filename": "./output50/laugh_33.wav",
@@ -175,49 +100,9 @@
     "end": 5416.637623143937
   },
   {
-    "filename": "./output50/laugh_35.wav",
-    "start": 5531.079851409124,
-    "end": 5531.800637487186
-  },
-  {
-    "filename": "./output50/laugh_36.wav",
-    "start": 5736.759646458665,
-    "end": 5739.410279132829
-  },
-  {
-    "filename": "./output50/laugh_37.wav",
-    "start": 5904.075021224266,
-    "end": 5905.191077087071
-  },
-  {
-    "filename": "./output50/laugh_38.wav",
-    "start": 5910.30633312493,
-    "end": 5911.259630841076
-  },
-  {
-    "filename": "./output50/laugh_39.wav",
-    "start": 6223.732021262825,
-    "end": 6226.103639971287
-  },
-  {
     "filename": "./output50/laugh_40.wav",
     "start": 6387.6992284400085,
     "end": 6393.0469961159515
-  },
-  {
-    "filename": "./output50/laugh_41.wav",
-    "start": 6426.8076859658195,
-    "end": 6427.24945807818
-  },
-  {
-    "filename": "./output50/laugh_42.wav",
-    "start": 6557.572231224538,
-    "end": 6557.897747517856
-  },
-  {
-    "filename": "./output50/laugh_43.wav",
-    "start": 6652.529984218244,
-    "end": 6653.669291244858
   },
   {
     "filename": "./output50/laugh_44.wav",
@@ -225,49 +110,9 @@
     "end": 6733.955559875433
   },
   {
-    "filename": "./output50/laugh_45.wav",
-    "start": 7765.446939909664,
-    "end": 7767.051270212447
-  },
-  {
-    "filename": "./output50/laugh_46.wav",
-    "start": 8064.294148339662,
-    "end": 8071.0602370079205
-  },
-  {
     "filename": "./output50/laugh_47.wav",
     "start": 8115.190945916356,
     "end": 8117.306801822925
-  },
-  {
-    "filename": "./output50/laugh_48.wav",
-    "start": 8189.6876747586275,
-    "end": 8192.33830743279
-  },
-  {
-    "filename": "./output50/laugh_49.wav",
-    "start": 8226.633774050253,
-    "end": 8227.773081076868
-  },
-  {
-    "filename": "./output50/laugh_50.wav",
-    "start": 8368.582129100836,
-    "end": 8369.698184963641
-  },
-  {
-    "filename": "./output50/laugh_51.wav",
-    "start": 8386.64828338,
-    "end": 8388.787390450378
-  },
-  {
-    "filename": "./output50/laugh_52.wav",
-    "start": 8495.021957891182,
-    "end": 8498.6491394453
-  },
-  {
-    "filename": "./output50/laugh_53.wav",
-    "start": 8501.160265136614,
-    "end": 8504.229418759329
   },
   {
     "filename": "./output50/laugh_54.wav",
@@ -275,34 +120,9 @@
     "end": 9097.041091219548
   },
   {
-    "filename": "./output50/laugh_55.wav",
-    "start": 9327.227612923196,
-    "end": 9328.227412966959
-  },
-  {
-    "filename": "./output50/laugh_56.wav",
-    "start": 9481.661842938915,
-    "end": 9482.475633672211
-  },
-  {
-    "filename": "./output50/laugh_57.wav",
-    "start": 10056.174849481886,
-    "end": 10058.05819375037
-  },
-  {
     "filename": "./output50/laugh_58.wav",
     "start": 11228.335770557234,
     "end": 11229.59133340289
-  },
-  {
-    "filename": "./output50/laugh_59.wav",
-    "start": 11553.27078478031,
-    "end": 11554.828612755477
-  },
-  {
-    "filename": "./output50/laugh_60.wav",
-    "start": 11562.175980518947,
-    "end": 11563.61755267507
   },
   {
     "filename": "./output50/laugh_61.wav",
@@ -325,59 +145,9 @@
     "end": 12399.450389261201
   },
   {
-    "filename": "./output50/laugh_65.wav",
-    "start": 14050.817796428688,
-    "end": 14061.606336435809
-  },
-  {
-    "filename": "./output50/laugh_66.wav",
-    "start": 14071.46482989059,
-    "end": 14074.487481185688
-  },
-  {
-    "filename": "./output50/laugh_67.wav",
-    "start": 14076.231318471322,
-    "end": 14078.091411575999
-  },
-  {
-    "filename": "./output50/laugh_68.wav",
-    "start": 14087.717393392697,
-    "end": 14090.600537704944
-  },
-  {
-    "filename": "./output50/laugh_69.wav",
-    "start": 14171.514587758347,
-    "end": 14172.723648276387
-  },
-  {
-    "filename": "./output50/laugh_70.wav",
-    "start": 14177.327378710459,
-    "end": 14177.583141512352
-  },
-  {
-    "filename": "./output50/laugh_71.wav",
-    "start": 14383.355941217127,
-    "end": 14383.890717984721
-  },
-  {
-    "filename": "./output50/laugh_72.wav",
-    "start": 14961.472878150407,
-    "end": 14962.542431685597
-  },
-  {
-    "filename": "./output50/laugh_73.wav",
-    "start": 15443.027731787199,
-    "end": 15446.143387737531
-  },
-  {
     "filename": "./output50/laugh_74.wav",
     "start": 15581.651170413174,
     "end": 15585.534114769183
-  },
-  {
-    "filename": "./output50/laugh_75.wav",
-    "start": 15726.343162793151,
-    "end": 15727.017446543598
   },
   {
     "filename": "./output50/laugh_76.wav",
@@ -395,104 +165,14 @@
     "end": 15881.335420740274
   },
   {
-    "filename": "./output50/laugh_79.wav",
-    "start": 15991.89470464945,
-    "end": 15992.568988399895
-  },
-  {
-    "filename": "./output50/laugh_80.wav",
-    "start": 16009.449333324828,
-    "end": 16011.495435739973
-  },
-  {
-    "filename": "./output50/laugh_81.wav",
-    "start": 16118.799556715965,
-    "end": 16119.729603268304
-  },
-  {
-    "filename": "./output50/laugh_82.wav",
-    "start": 16290.021127001386,
-    "end": 16292.462499201272
-  },
-  {
-    "filename": "./output50/laugh_83.wav",
-    "start": 17012.690549331794,
-    "end": 17015.48068898881
-  },
-  {
-    "filename": "./output50/laugh_84.wav",
-    "start": 17130.713456823483,
-    "end": 17133.782610446196
-  },
-  {
     "filename": "./output50/laugh_85.wav",
     "start": 17171.426244652077,
     "end": 17171.868016764438
   },
   {
-    "filename": "./output50/laugh_86.wav",
-    "start": 17187.58580349895,
-    "end": 17189.004124491265
-  },
-  {
-    "filename": "./output50/laugh_87.wav",
-    "start": 17281.101984336532,
-    "end": 17282.49705416504
-  },
-  {
-    "filename": "./output50/laugh_88.wav",
-    "start": 17509.31215711646,
-    "end": 17510.66072461735
-  },
-  {
-    "filename": "./output50/laugh_89.wav",
-    "start": 17667.885094290083,
-    "end": 17669.349917610016
-  },
-  {
-    "filename": "./output50/laugh_90.wav",
-    "start": 17693.089355858443,
-    "end": 17693.670634953654
-  },
-  {
-    "filename": "./output50/laugh_91.wav",
-    "start": 17696.832793231602,
-    "end": 17701.785291122804
-  },
-  {
-    "filename": "./output50/laugh_92.wav",
-    "start": 17705.784491297854,
-    "end": 17706.970300652087
-  },
-  {
-    "filename": "./output50/laugh_93.wav",
-    "start": 17722.78109204183,
-    "end": 17723.897147904638
-  },
-  {
-    "filename": "./output50/laugh_94.wav",
-    "start": 17730.965501702405,
-    "end": 17731.942050582362
-  },
-  {
-    "filename": "./output50/laugh_95.wav",
-    "start": 17743.590883650395,
-    "end": 17745.078958134134
-  },
-  {
     "filename": "./output50/laugh_96.wav",
     "start": 17751.63578632812,
     "end": 17753.58888408803
-  },
-  {
-    "filename": "./output50/laugh_97.wav",
-    "start": 18246.839073120467,
-    "end": 18254.697966487725
-  },
-  {
-    "filename": "./output50/laugh_98.wav",
-    "start": 18946.234080478618,
-    "end": 18948.233680566147
   },
   {
     "filename": "./output50/laugh_99.wav",
@@ -502,11 +182,7 @@
   {
     "filename": "./output50/laugh_100.wav",
     "start": 19803.6672482428,
-    "end": 19804.806555269413
-  },
-  {
-    "filename": "./output50/laugh_101.wav",
-    "start": 19910.483094778814,
-    "end": 19912.482694866343
+    "end": 19804.806555269413,
+    "deleted": false
   }
 ]
